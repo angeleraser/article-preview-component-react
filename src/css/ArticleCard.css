@@ -68,7 +68,7 @@
   position: absolute;
   bottom: 0;
   transform: scale(0);
-  transform-origin: 300px center;
+  transform-origin: 260px center;
   background-color: var(--dark-gray-blue);
   padding: 23px 39px 25px 33px;
   transition: all 0.5s;
