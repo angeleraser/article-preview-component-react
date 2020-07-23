@@ -1,0 +1,33 @@
+.article-card button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background-color: var(--light-gray-blue);
+  border-radius: 99999px;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 0.1s;
+  transform: rotate(-360deg);
+}
+.article-card button:hover {
+  background-color: hsl(210, 46%, 90%);
+}
+.article-card button:active {
+  transform: scale(0.9);
+}
+.article-card button svg {
+  transition: all 0.8s;
+}
+.article-card button.active svg {
+  transform: rotate(1turn);
+}
+.article-card button.active {
+  background-color: var(--gray-blue);
+}
+.article-card button.active path {
+  fill: #ffffff;
+}

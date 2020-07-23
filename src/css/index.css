@@ -1,0 +1,9 @@
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Manrope', sans-serif;
+  height: 100%;
+  background-color: var(--light-gray-blue);
+}
